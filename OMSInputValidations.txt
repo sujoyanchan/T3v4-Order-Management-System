@@ -1,0 +1,29 @@
+Order Management System
+
+Working
+=======
+
+For User
+--------
+User will input name, phone number, email address, delivery address and select one or more menu items of their choice. (ie, tea, coffee, juice, milkshake, soda).
+
+For Cafe Admin
+--------------
+A login page for the cafe admin where once logged in with valid credentials, the admin will be able to view and delete the order. Admin credentials are stored in mysql database. A confirmation alert will appear before deleting the order. In addition to the user order details the admin will be also able to view the date & time for when the order was placed.
+
+Input Validations
+=================
+
+1. name cannot be empty, cannot be number, cannot be spaces, cannot be spl. chars. and should be between 2 to 15 letters.
+
+2. phone number cannot be empty, cannot be text, cannot be negative, cannot be spaces, cannot be spl. chars. and should be 10 digits.
+
+3. email address cannot be empty, cannot be all number/text, cannot be spaces, cannot be only spl. chars. and should be between 10 to 30 characters.
+
+4. delivery address cannot be empty, cannot be all number/text, cannot be spaces, cannot be spl. chars. and should be between 10 to 50 characters. Spaces and commas between words are allowed.
+
+5. menu items choice cannot be empty.
+
+
+
+
