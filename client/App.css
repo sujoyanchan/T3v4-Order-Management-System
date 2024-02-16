@@ -1,0 +1,64 @@
+body{
+  font-size: 20px;
+  background-image: url('cafe.jpg');
+  font-family: fantasy;
+  color: brown;
+}
+
+input{
+  font-size: 20px;
+  text-align: center;
+  width: 25%;
+  font-family: monospace;
+}
+
+.nav{
+  background-color: black;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  margin: 5%;
+}
+
+table{
+  width: 90%;
+  text-align: center;
+  border-spacing: 5px;
+}
+
+.btn{
+  font-size: 20px;
+  border-radius: 20px;
+  width: 15%;
+  font-family: fantasy;
+}
+
+.btn:hover{
+  background-color: yellow;
+  color: red;
+}
+
+.dbtn{
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: fantasy;
+}
+
+.dbtn:hover{
+  background-color: red;
+  color: yellow;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+input.largerCheckbox {
+  transform: scale(2);
+}
